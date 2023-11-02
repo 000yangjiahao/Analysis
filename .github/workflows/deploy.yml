@@ -20,7 +20,7 @@ jobs:
           node-version: 18.17.1
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        uses: bahmutov/npm-install --focus@v1
         with:
           args: ci --focus
 
